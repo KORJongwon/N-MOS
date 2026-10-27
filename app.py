@@ -216,7 +216,4 @@ with flow[3]:
         text.extend(['\n[참고: 생성형 AI의 미검증 원인 가설]',latest['text']])
     st.download_button('진단 보고서 TXT 다운로드',data='\n'.join(text),
                        file_name=f'nmos_ax_{case_id.lower()}_report.txt',mime='text/plain')
-    st.markdown('#### 실제 제출 자료에서 구분해야 할 내용')
-    st.write('**기존 구현 코드에서 확인된 기능:** 규격 판정, 평균·산포 기반 플래그, 정적 원인 안내, Streamlit 화면 및 TXT 저장.')
-    st.write('**이번 확장에 새로 구현한 기능:** 125개 CSV 데이터, Golden Bias, 교차 Gage R&R 및 P/T, 웨이퍼와 위치별 집계, 로컬 RAG 문서 검색, 선택적 실제 LLM API 호출 및 공정 이력 업로드.')
-    st.write('**여전히 실증되지 않은 사항:** 경진대회 당시 RAG/LLM을 실제 구동했는지, 실제 125개 원자료 및 장비 로그와의 일치, 공정 원인 확정.')
+
