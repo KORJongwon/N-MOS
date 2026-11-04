@@ -1,4 +1,4 @@
-# Vth와 Idsat 동시 감소 가능 원인 (경진대회 발표자료 10~11페이지)
+# Vth와 Idsat 동시 감소 가능 원인
 - Gate oxide-Si 계면 손상과 S/D 또는 Halo dopant 활성화 부족이 대안 가설이다.
 - Plasma etch/Ash 공정의 RF power, over-etch, FGA 시간과 수소 공급을 확인한다.
 - RTA actual peak temperature, dwell/spike time, dopant activation과 Sheet Resistance 및 Rsd를 살핀다.
